@@ -16,7 +16,7 @@ const TabCards = ({title,des,icon,activeTab,setActiveTab,id}) => {
 
   return (
     <>
-      <main className="rounded p-6 w-[300px] md:w-full  lg:w-[240px] xl:w-[300px] 2xl:w-[350px] flex cursor-pointer flex-col gap-2 md:gap-8 shadow-lg md:shadow-2xl">
+      <main className="rounded p-6 w-full  lg:w-[240px] xl:w-[300px] 2xl:w-[350px] flex cursor-pointer flex-col gap-2 md:gap-8 shadow-lg md:shadow-2xl">
         <img src={`/images/${icon}.svg`} alt="" className="block w-8" />
         <div className="font-semibold text-lg md:text-2xl">{title}</div>
         <div className="text-black-100 text-xs md:text-sm">

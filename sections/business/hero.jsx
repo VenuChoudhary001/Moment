@@ -34,8 +34,8 @@ const Hero = () => {
         <div className="absolute -z-[1] bottom-0 w-screen h-[426px] grad"></div>
 
         <div className="container px-4 md:px-0 ">
-          <div className="flex flex-col py-20 gap-8">
-            <div className="flex gap-8">
+          <div className="flex flex-col py-20 gap-4 md:gap-8">
+            <div className="flex gap-4 md:gap-8">
               <div className="w-[40px] md:w-[60px] relative">
                 <Image
                   src={"/images/facebook.svg"}
@@ -55,6 +55,14 @@ const Hero = () => {
               <div className="w-[40px] md:w-[60px] relative">
                 <Image
                   src={"/images/instagram.svg"}
+                  layout="responsive"
+                  width={60}
+                  height={60}
+                />
+              </div>
+              <div className="w-[40px] md:w-[60px] relative">
+                <Image
+                  src={"/images/tiktok.png"}
                   layout="responsive"
                   width={60}
                   height={60}

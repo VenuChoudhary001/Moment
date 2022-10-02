@@ -30,7 +30,7 @@ const ProgressBar = ({ steps, totalSlide }) => {
     <>
       {ab.map((item, index) => {
         if (item == 1)
-          return <div className="w-1/6 h-full bg-gray-600 rounded"></div>;
+          return <div className="w-1/6 h-full bg-primary rounded"></div>;
         else return <div className="w-1/6 h-full bg-gray-300 rounded"></div>;
       })}
     </>
@@ -40,13 +40,13 @@ const ProgressBar = ({ steps, totalSlide }) => {
 export const CircularProgress = ({ index }) => {
   let val = [
     { value: 33.33, name: "Search" ,
-      icon:"/images/"
+      icon:"/images/search.svg"
   },
     { value: 66.66, name: "Book" ,
-      icon:"/images/"
+      icon:"/images/calendar.png"
   },
     { value: 100, name: "Enjoy" ,
-      icon:"/images/"
+      icon:"/images/enjoy.png"
   },
   ];
 
@@ -63,19 +63,19 @@ export const CircularProgress = ({ index }) => {
             rotation: 1 / 2 + 1 / 8,
             strokeLinecap: "round",
             trailColor: "#fff",
-            pathColor: "#1E2739",
+            pathColor: "#FF7272",
             pathTransitionDuration: 2,
           })}
         >
           <div className="absolute xl:bottom-20 md:-bottom-[5px] md:right-[45px] xl:right-[160px] text-white font-primary text-xl md:text-2xl lg:text-4xl xl:text-5xl flex flex-col gap-2 items-center">
             <div className="bg-white w-10 h-10 md:w-14 md:h-14 flex item-center justify-center rounded-full">
               <img
-                src="/images/search.svg"
+                src={val[index].icon}
                 alt=""
                 className="block w-4 md:w-6 object-contain"
               />
             </div>
-            <div className="">{val[index].name}</div>
+            <div className="text-3xl ">{val[index].name}</div>
           </div>
         </CircularProgressbarWithChildren>
       </div>

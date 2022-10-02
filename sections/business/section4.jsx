@@ -7,20 +7,20 @@ const Section4 = () => {
       <section className="container px-4 md:px-0 font-primary max-w-[1000px] py-12 md:py-16 lg:py-20 xl:py-24 flex flex-col gap-2 xl:gap-4 2xl:gap-8 ">
       <img src="/images/briefcase.svg" alt="briefcase" className="md:hidden w-12 md:w-8 lg:w-12 xl:w-" />
 
-        <div className="text-4xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl  flex md:gap-2 lg:gap-4 xl:gap-6 2xl:gap-8 items-center justify-center font-medium">
+        <div className="text-4xl md:text-3xl lg:text-5xl xl:text-6xl 2xl:text-7xl  flex md:gap-2 lg:gap-4 xl:gap-6 2xl:gap-8 items-center justify-center font-medium">
           <div className="w-3/">Built for today's forward-thinking</div>
-          <hr className="h-[4px] md:w-[100px] lg:w-[100px] xl:w-[250px] 2xl:w-[500px] bg-black" />
+          <hr className="h-[4px] md:w-[180px] lg:w-[100px] xl:w-[250px] 2xl:w-[500px] bg-black" />
         </div>
-        <div className="text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl  flex gap-2 items-center justify-cente font-medium">
+        <div className="text-4xl md:text-3xl lg:text-5xl xl:text-6xl 2xl:text-7xl  flex gap-2 items-center justify-cente font-medium">
           <img src="/images/briefcase.svg" alt="briefcase" className="hidden md:block md:w-8 lg:w-12 xl:w-24" />
           businesses and entrepreneurs
         </div>
       </section>
-      <section className="grid grid-cols-1 md:grid-cols-2 min-h-[650px] md:min-h-[300px] lg:min-h-[400px] xl:min-h-[500px] 2xl:min-h-[660px]">
-        <main className="relative w-full">
+      <section className="grid grid-cols-1 md:grid-cols-2  md:min-h-[300px] lg:min-h-[400px] xl:min-h-[500px] 2xl:min-h-[660px]">
+        <main className="relative h-[260px] md:h-auto w-full">
           <Image src={"/images/business-3.webp"} layout="fill" />
         </main>
-        <main className="relative w-full">
+        <main className="relative h-[260px] md:h-auto w-full">
           <Image src={"/images/business-4.webp"} layout="fill" />
         </main>
       </section>

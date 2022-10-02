@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Button from "../../components/button";
-import TabCards from "../../components/cards/tabCards";
 import TABS from "../../components/tabs/tabs";
 const Section5 = () => {
-  const [currentTab,setCurrentTab]=useState(0);
+  
   return (
     <>
       <section className=" my-24 md:my-48 flex flex-col gap-24 font-primary">
@@ -29,31 +28,6 @@ const Section5 = () => {
             </div>
           </div>
         </main>
-        {/* <main className="container grid grid-cols-7">
-          <div className="col-span-2 flex flex-col gap-6">
-            <TabCards />
-            <TabCards />
-            <TabCards />
-          </div>
-          <div className="col-span-5 flex flex-col gap-6">
-            <div className="grid gap-4 grid-cols-6">
-              <div className="col-span-2 h-[402px] relative">
-                <Image src={"/images/tabs/1.webp"} layout="fill" />
-              </div>
-              <div className="relative col-span-4">
-                <Image src={"/images/tabs/2.webp"} layout="fill" />
-              </div>
-            </div>
-            <div className="grid gap-4 grid-cols-6">
-              <div className="col-span-4 h-[402px] relative">
-                <Image src={"/images/tabs/3.webp"} layout="fill" />
-              </div>
-              <div className="relative col-span-2">
-                <Image src={"/images/tabs/4.webp"} layout="fill" />
-              </div>
-            </div>
-          </div>
-        </main> */}
         <TABS/>
       </section>
       <section className="md:h-[300p] lg:h-[500px] 2xl:h-[700px]  my-12 md:my-24 grid  md:grid-cols-2 font-primary">
@@ -74,7 +48,7 @@ const Section5 = () => {
             />
           </div>
         </div>
-        <div className="relative w-full h-[300px] md:h-auto ">
+        <div className="relative w-full h-[250px]  md:h-auto ">
           <Image src={"/images/business-6.webp"} layout="fill" />
         </div>
       </section>

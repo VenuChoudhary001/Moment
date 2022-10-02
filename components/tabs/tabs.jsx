@@ -135,7 +135,7 @@ const TABS = () => {
                   <img
                     src="/images/tabs/12.webp"
                     alt=""
-                    className="block object-cover h-full"
+                    className="block object-cover w-full md:h-full "
                   />
                 </div>
                 <div className="col-span-4 flex flex-col h-[150px] gap-2 md:gap-6 md:h-[650px]">

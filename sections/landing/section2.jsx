@@ -32,10 +32,16 @@ const Section2 = () => {
       "paritialVisibilityGutter": 40 
     },
     xs:{
-        breakpoint: { max: 767, min: 260 },
+        breakpoint: { max: 410, min: 370 },
         items: 1,
         slidesToSlide: 1, 
-        "paritialVisibilityGutter": 240 
+        "paritialVisibilityGutter": 230 
+    },
+    xxs:{
+      breakpoint: { max: 369, min: 320 },
+      items: 1,
+      slidesToSlide: 1, 
+      "paritialVisibilityGutter":160 
     }
   };
 

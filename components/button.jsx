@@ -14,11 +14,11 @@ const Button = ({ textColor, bgColor, placeholder }) => {
 
 export default Button;
 
-export const Tags = () => {
+export const Tags = ({placeholder}) => {
   return (
     <>
-      <div className="px-4 py-1 flex font-primary xl:text-base text-xs text-primary bg-gray-200 items-center justify-center border-2 borer-primary rounded-full">
-        Reach
+      <div className="px-2 md:px-4 py-1 flex font-primary xl:text-base text-xs text-primary bg-gray-200 items-center justify-center border-2 borer-primary rounded-full">
+       {placeholder}
       </div>
     </>
   );
