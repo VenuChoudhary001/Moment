@@ -1,6 +1,7 @@
 import React from 'react'
 import Hero from '../sections/business/hero'
 import Section2 from '../sections/business/section2'
+import Section3 from '../sections/business/section3'
 import Section4 from '../sections/business/section4'
 import Section5 from '../sections/business/section5'
 
@@ -9,6 +10,7 @@ const Business = () => {
     <>
     <Hero/>
     <Section2/>
+    <Section3/>
     <Section4/>
     <Section5/>
     </>
