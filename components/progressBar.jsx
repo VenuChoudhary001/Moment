@@ -30,7 +30,7 @@ const ProgressBar = ({ steps, totalSlide }) => {
     <>
       {ab.map((item, index) => {
         if (item == 1)
-          return <div className="w-1/6 h-full bg-primary rounded"></div>;
+          return <div className="w-1/6 h-full bg-secondary rounded"></div>;
         else return <div className="w-1/6 h-full bg-gray-300 rounded"></div>;
       })}
     </>

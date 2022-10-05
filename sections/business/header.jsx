@@ -1,12 +1,14 @@
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import Button from "../../components/button";
+import { MobileNav } from "../../components/navbar";
 
 const Header = () => {
+  const [show,setShow]=useState(false);
   return (
     <>
       <div className="absolute z-[20] w-screen mx-auto">
-        <main className="container p-2 h-[80px] flex items-center justify-between">
+        <main className="container px-4 md:px-0 p-2 h-[80px] flex items-center justify-between">
           <div className="relative hidden md:block w-[206px] h-[76px]">
             <Image src={"/images/logo_text.png"} layout="fill" />
           </div>
@@ -23,6 +25,7 @@ const Header = () => {
               placeholder={"Customer"}
             />
           </div>
+          <MobileNav setShow={setShow} show={show}/>
         </main>
       </div>
     </>

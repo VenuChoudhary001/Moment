@@ -103,3 +103,29 @@ text{
 .grad{
   background: linear-gradient(180deg, rgba(30, 39, 57, 0) 0%, #1E2739 100%);
 }
+
+.PhoneInputInput{
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.04);
+  padding: 8px;
+  border-radius: 8px;
+  color: #1E2739;
+}
+
+body::-webkit-scrollbar {
+  width: 4px;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+.opt::-webkit-scrollbar-thumb {
+  background-color: black;
+  outline: 1px solid slategrey;
+  border-radius: 20px;
+}
+
+.opt::-webkit-scrollbar{
+  width: 2px;
+}

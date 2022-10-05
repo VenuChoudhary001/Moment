@@ -241,24 +241,24 @@ const TABS = () => {
             </div>
           </TabContent>
           <TabContent id={3} activeTab={activeTab}>
-            <div className="lg:col-span-5 xl:col-span-5  grid grid-cols-7 gap-6">
-              <div className="col-span-3 relative w-full h-[650px]">
+            <div className="lg:col-span-5 xl:col-span-5 h-[560px]  grid grid-cols-7 gap-6">
+              <div className="col-span-3 relative w-full ">
                 <img
                   src="/images/tabs/12.webp"
                   alt=""
-                  className="block object-cover h-full xl:w-full"
+                  className="block object-cover h-full xl:w-full "
                 />
               </div>
-              <div className="col-span-4 flex flex-col gap-6 h-[650px]">
+              <div className="col-span-4 flex flex-col gap-6 ">
                 <img
                   src="/images/tabs/10.webp"
                   alt=""
-                  className="block h-full object-cover"
+                  className="block w-full h-full object-cover"
                 />
                 <img
                   src="/images/tabs/11.webp"
                   alt=""
-                  className="block h-full object-cover"
+                  className="block w-full h-full object-cover"
                 />
               </div>
             </div>

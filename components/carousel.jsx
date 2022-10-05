@@ -9,7 +9,7 @@ const CustomCarousel = ({ res,children,showProgress=true,centerMode=false ,devic
   console.log(deviceType)
   return (
     <>
-      {showProgress && <div className=" h-[3px] flex gap-1 w-2/4  mx-auto md:mr-auto flex ">
+      {showProgress && <div className=" h-[3px] my-4    flex gap-1 w-2/4  mx-auto md:mr-auto flex ">
         <ProgressBar steps={currentStep} totalSlide={6}/>
       </div>}
       <div className="w-full  mb-8 max-h-[600px] h-full overflow-hidden flex flex-col gap- ">
