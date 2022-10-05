@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import TextBox from '../../components/TextBox'
+import TextBox from '../../components/textBox'
 
 const Hero = () => {
   return (

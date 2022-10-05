@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import Header from "../../../sections/join-us/header";
-import TextBox, { SelectBox } from "../../../components/textBox";
+import TextBox, { CustomSelect } from "../../../components/textBox";
 import { TextArea } from "../../../components/textBox";
 import "react-phone-number-input/style.css";
 import PhoneInput from "react-phone-number-input";
-const JoinBusiness = () => {
+import Image from "next/image";
+const Expert = () => {
   const [value, setValue] = useState(false);
   return (
     <>
@@ -23,19 +24,19 @@ const JoinBusiness = () => {
         <div className=" col-span-12 lg:col-span-10  max-w-[1100px] mb-12 flex flex-col gap-4 md:gap-12">
           <div className="flex flex-col  md:gap-2">
             <div className="text-primary  font-medium text-2xl md:text-3xl lg:text-4xl xl:text-5xl">
-              Join Moment as a Business
+              Join Moment as an Instructor
             </div>
           </div>
           <main className="flex flex-col font-primary gap-4 py-4 md:px-4 md:border-2 md:border-gray-200 rounded-2xl">
             <div className="flex gap-2">
               <img
-                src="/images/business.webp"
+                src="/images/instructor.webp"
                 alt=""
                 className="block h-[100px] rounded"
               />
               <div className="flex flex-col gap-1 max-w-[600px]">
                 <div className="text-primary font-medium text-base md:text-2xl">
-                  Business account
+                 Instructor account
                 </div>
                 <div className="text-xs md:text-sm text-black-100">
                   Tell us a little about yourself. We’ll use this to review your
@@ -53,7 +54,9 @@ const JoinBusiness = () => {
                 lable="Email address"
               />
 
-              <div className="flex w-full font-primary flex-col gap-1">
+              <div
+                className="flex w-full font-primary flex-col gap-1"
+              >
                 <label className="text-xs md:text-base">Phone number</label>
                 <PhoneInput
                   placeholder="8888888888"
@@ -64,13 +67,17 @@ const JoinBusiness = () => {
                 />
               </div>
               <TextBox
-                placeholder={"Your business name"}
-                lable="Business name"
+                placeholder={"Your first name"}
+                lable="Instructor name (your brand name)"
               />
-               <SelectBox/>
+              <CustomSelect placeholder={"Select your instructor type"} lable="Your instructor type" />
             </div>
 
-            <TextArea placeholder={"Tell us more about your business"} lable="Tell us more about your business" />
+            <TextArea
+              placeholder={"Describe your expertise"}
+              lable="Describe your expertise"
+
+            />
             <div className="flex gap-2 text-base md:text-xl font-medium">
               <input
                 type="checkbox"
@@ -95,4 +102,4 @@ const JoinBusiness = () => {
   );
 };
 
-export default JoinBusiness;
+export default Expert;

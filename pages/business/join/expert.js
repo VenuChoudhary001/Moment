@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import Header from "../../../sections/join-us/header";
-import TextBox, { SelectBox } from "../../../components/textBox";
+import TextBox, { CustomSelect } from "../../../components/textBox";
 import { TextArea } from "../../../components/textBox";
 import "react-phone-number-input/style.css";
 import PhoneInput from "react-phone-number-input";
+import Image from "next/image";
 const Expert = () => {
   const [value, setValue] = useState(false);
   return (
@@ -56,10 +57,10 @@ const Expert = () => {
               <div
                 className="flex w-full font-primary flex-col gap-1"
               >
-                <label className="text-xs md:text-sm">Phone number</label>
+                <label className="text-xs md:text-base">Phone number</label>
                 <PhoneInput
                   placeholder="8888888888"
-                  className="text-xs"
+                  className="text-base"
                   international
                   value={value}
                   onChange={setValue}
@@ -68,13 +69,16 @@ const Expert = () => {
               <TextBox
                 placeholder={"www.url.com"}
                 lable="Social media url"
-              />
-              <SelectBox placeholder={"Select your expert type"} lable="Your expert type" />
+                icon={"/images/global.png"}
+                />
+               
+              <CustomSelect placeholder={"Select your expert type"} lable="Your expert type" />
             </div>
 
             <TextArea
               placeholder={"Describe your expertise"}
               lable="Describe your expertise"
+
             />
             <div className="flex gap-2 text-base md:text-xl font-medium">
               <input
