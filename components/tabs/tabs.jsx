@@ -26,6 +26,7 @@ const TABS = () => {
                     <Image
                       src={"/images/tabs/1.webp"}
                       layout="fill"
+                      alt=""
                       objectFit="cover"
                     />
                     {/* <img src="/images/tabs/1.webp" alt="" className="block object-cover w-full" /> */}
@@ -35,6 +36,7 @@ const TABS = () => {
                       src={"/images/tabs/2.webp"}
                       objectFit="cover"
                       layout="fill"
+                      alt=""
                     />
                     {/* <img src="/images/tabs/2.webp" alt="" className="block object-cover w-full" /> */}
                   </div>
@@ -44,6 +46,7 @@ const TABS = () => {
                     <Image
                       src={"/images/tabs/3.webp"}
                       layout="fill"
+                      alt=""
                       objectFit="cover"
                     />
                     {/* <img src="/images/tabs/3.webp" alt="" className="block object-cover w-full " /> */}
@@ -78,6 +81,7 @@ const TABS = () => {
                     <Image
                       src={"/images/tabs/5.webp"}
                       layout="fill"
+                      alt=""
                       objectFit="cover"
                     />
                   </div>
@@ -85,6 +89,7 @@ const TABS = () => {
                     <Image
                       src={"/images/tabs/7.webp"}
                       layout="fill"
+                      alt=""
                       objectFit="cover"
                     />
                   </div>
@@ -94,6 +99,7 @@ const TABS = () => {
                     <Image
                       src={"/images/tabs/8.webp"}
                       layout="fill"
+                      alt=""
                       objectFit="cover"
                     />
                   </div>
@@ -102,6 +108,7 @@ const TABS = () => {
                       <Image
                         src={"/images/tabs/6.webp"}
                         layout="fill"
+                        alt=""
                         objectFit="cover"
                       />
                     </div>
@@ -109,6 +116,7 @@ const TABS = () => {
                       <Image
                         src={"/images/tabs/9.webp"}
                         layout="fill"
+                        alt=""
                         objectFit="cover"
                       />
                     </div>
@@ -162,6 +170,7 @@ const TABS = () => {
                   <Image
                     src={"/images/tabs/1.webp"}
                     layout="fill"
+                    alt=""
                     objectFit="cover"
                   />
                   {/* <img src="/images/tabs/1.webp" alt="" className="block object-cover w-full" /> */}
@@ -171,6 +180,7 @@ const TABS = () => {
                     src={"/images/tabs/2.webp"}
                     objectFit="cover"
                     layout="fill"
+                    alt=""
                   />
                   {/* <img src="/images/tabs/2.webp" alt="" className="block object-cover w-full" /> */}
                 </div>
@@ -180,6 +190,7 @@ const TABS = () => {
                   <Image
                     src={"/images/tabs/3.webp"}
                     layout="fill"
+                    alt=""
                     objectFit="cover"
                   />
                   {/* <img src="/images/tabs/3.webp" alt="" className="block object-cover w-full " /> */}
@@ -188,6 +199,7 @@ const TABS = () => {
                   <Image
                     src={"/images/tabs/4.webp"}
                     layout="fill"
+                    alt=""
                     objectFit="cover"
                   />
                   {/* <img src="/images/tabs/4.webp" alt="" className="block object-cover h-full" /> */}
@@ -202,6 +214,7 @@ const TABS = () => {
                   <Image
                     src={"/images/tabs/5.webp"}
                     layout="fill"
+                    alt=""
                     objectFit="cover"
                   />
                 </div>
@@ -209,6 +222,8 @@ const TABS = () => {
                   <Image
                     src={"/images/tabs/7.webp"}
                     layout="fill"
+                    alt=""
+            
                     objectFit="cover"
                   />
                 </div>
@@ -218,6 +233,8 @@ const TABS = () => {
                   <Image
                     src={"/images/tabs/8.webp"}
                     layout="fill"
+                    alt=""
+                  
                     objectFit="cover"
                   />
                 </div>
@@ -226,6 +243,8 @@ const TABS = () => {
                     <Image
                       src={"/images/tabs/6.webp"}
                       layout="fill"
+                      alt=""
+                      
                       objectFit="cover"
                     />
                   </div>
@@ -233,6 +252,8 @@ const TABS = () => {
                     <Image
                       src={"/images/tabs/9.webp"}
                       layout="fill"
+                    
+                      alt=""
                       objectFit="cover"
                     />
                   </div>

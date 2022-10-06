@@ -8,7 +8,7 @@ const Section6 = () => {
     <>
       <section className=" lg:h-[500px] xl:h-[600px] my-12 md:my-24 grid  md:grid-cols-2 font-primary">
         <div className="relative w-full h-[300px] md:h-auto ">
-          <Image src={"/images/7.jpg"} layout="fill" />
+          <Image src={"/images/7.jpg"} alt="" layout="fill" />
         </div>
         <div className="bg-primary px-4 md:px-0  w-full flex flex-col items-center justify-center">
           <div className="justify-center container py-6 flex text- md:text-left text-white md:p-12 w-full max-w-[600px] flex-col gap-4 md:gap-6">

@@ -4,7 +4,6 @@ import TextBox, { CustomSelect } from "../../../components/textBox";
 import { TextArea } from "../../../components/textBox";
 import "react-phone-number-input/style.css";
 import PhoneInput from "react-phone-number-input";
-import Image from "next/image";
 const Expert = () => {
   const [value, setValue] = useState(false);
   return (

@@ -14,7 +14,7 @@ const JoinBusiness = () => {
           <div className="flex gap-2 md:gap-3 cursor-pointer text-sm md:text-lg max-w-min  text-secondary">
             <img
               src="/images/arrow-left.png"
-              alt=""
+              alt="left-arrow"
               className="block w-2 md:w-4 object-contain text-secondary"
             />
             Back

@@ -10,10 +10,11 @@ const Header = () => {
       <div className="absolute z-[20] w-screen mx-auto">
         <main className="container px-4 md:px-0 p-2 h-[80px] flex items-center justify-between">
           <div className="relative hidden md:block w-[206px] h-[76px]">
-            <Image src={"/images/logo_text.png"} layout="fill" />
+            <Image alt="moment logo" src={"/images/logo_text.png"} layout="fill" />
           </div>
           <div className="relative  md:hidden w-[50px] h-[26px]">
-            <Image src={"/images/logo_white.svg"} layout="fill" />
+            <Image  alt="moment_logo"
+            src={"/images/logo_white.svg"} layout="fill" />
           </div>
           <div className="md:flex items-center gap-12 hidden">
             <div className="text-white font-bold text-lg font-primary p-2 cursor-pointer">

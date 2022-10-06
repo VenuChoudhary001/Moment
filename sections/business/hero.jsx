@@ -41,6 +41,7 @@ const Hero = () => {
                   src={"/images/facebook.svg"}
                   layout="responsive"
                   width={60}
+                  alt="facebook_icon"
                   height={60}
                 />
               </div>
@@ -50,6 +51,7 @@ const Hero = () => {
                   layout="responsive"
                   width={60}
                   height={60}
+                  alt="twitter_icon"
                 />
               </div>
               <div className="w-[40px] md:w-[60px] relative">
@@ -58,6 +60,7 @@ const Hero = () => {
                   layout="responsive"
                   width={60}
                   height={60}
+                  alt="instagram_icon"
                 />
               </div>
               <div className="w-[40px] md:w-[60px] relative">
@@ -65,6 +68,7 @@ const Hero = () => {
                   src={"/images/tiktok.png"}
                   layout="responsive"
                   width={60}
+                  alt="tiktok_icon"
                   height={60}
                 />
               </div>

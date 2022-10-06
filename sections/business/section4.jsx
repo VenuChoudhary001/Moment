@@ -18,10 +18,10 @@ const Section4 = () => {
       </section>
       <section className="grid grid-cols-1 md:grid-cols-2  md:min-h-[300px] lg:min-h-[400px] xl:min-h-[500px] 2xl:min-h-[660px]">
         <main className="relative h-[260px] md:h-auto w-full">
-          <Image src={"/images/business-3.webp"} layout="fill" />
+          <Image alt="" src={"/images/business-3.webp"} layout="fill" />
         </main>
         <main className="relative h-[260px] md:h-auto w-full">
-          <Image src={"/images/business-4.webp"} layout="fill" />
+          <Image alt="" src={"/images/business-4.webp"} layout="fill" />
         </main>
       </section>
       <section className="md:my-24 py-24">

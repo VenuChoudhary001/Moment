@@ -25,6 +25,7 @@ const SideBar = () => {
               objectFit="cover"
               priority
               className="-z-[1] "
+              alt=""
             />
             <div className="text-3xl lg:text-5xl text-left max-w-[400px] text-gray-100  font-primary">
           Moments you love
@@ -36,6 +37,7 @@ const SideBar = () => {
               layout="fill"
               objectFit="cover"
               priority
+              alt=""
               className="-z-[1] "
             />
             <div className="text-3xl lg:text-5xl text-left max-w-[400px] text-gray-100  font-primary">

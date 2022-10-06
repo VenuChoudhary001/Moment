@@ -17,8 +17,8 @@ const Footer = () => {
               objectFit="cover"
             />
             <div className="text-sm max-w-[280px] lg:text-base text-black-100 font-medium md:max-w-[240px] ">
-              Moment is the platform where anyone can book experiences they love
-              and learn from the world's best.
+            {`  Moment is the platform where anyone can book experiences they love
+              and learn from the world's best.`}
             </div>
             {/* <div className="text-sm lg:text-base text-gray-500"> */}
             {/* </div> */}

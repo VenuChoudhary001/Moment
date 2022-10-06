@@ -18,24 +18,28 @@ const Hero = () => {
             layout="fill"
             objectFit="cover"
             priority
+            alt="hero_image_slides"
             />
              <Image 
             src={"/images/hero-2.webp"}
             layout="fill"
             objectFit="cover"
             priority
+            alt="hero_image_slides"
             />
              <Image 
             src={"/images/hero-3.webp"}
             layout="fill"
             objectFit="cover"
             priority
+            alt="hero_image_slides"
             />
              <Image 
             src={"/images/hero-4.webp"}
             layout="fill"
             objectFit="cover"
             priority
+            alt="hero_image_slides"
             />
             
               </ImageCarousel>

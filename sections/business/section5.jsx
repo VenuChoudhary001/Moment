@@ -49,7 +49,7 @@ const Section5 = () => {
           </div>
         </div>
         <div className="relative w-full h-[250px]  md:h-auto ">
-          <Image src={"/images/business-6.webp"} layout="fill" />
+          <Image src={"/images/business-6.webp"} alt="" layout="fill" />
         </div>
       </section>
       <section className="container  px-4 md:px-0 font-primary md:rounded-lg bg-secondary h-[250px] lg:h-[350px] items-center text-center justify-center flex flex-col gap-8 md:gap-12  text-white py-24 ">

@@ -8,6 +8,7 @@ const InspirationCards = () => {
      layout='fill'
      src={'/images/test.webp'}
      className="-z-[1]"
+     alt=''
      />
      <div className="text-xs md:text-sm lg:text-base xl:text-xl font-semibold">
      Any mechanical keyboard enthusiasts in design?

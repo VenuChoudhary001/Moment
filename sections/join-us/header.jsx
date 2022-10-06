@@ -10,11 +10,11 @@ const Header = () => {
         <div className="relative hidden lg:block lg:w-[150px] lg:h-[56px] xl:w-[206px] xl:h-[76px]">
             <a href="/">
 
-          <Image src={"/images/logo_text_black.png"} layout="fill" objectFit="contain" />
+          <Image alt="" src={"/images/logo_text_black.png"} layout="fill" objectFit="contain" />
             </a>
         </div>
         <div className="relative  lg:hidden w-[80px] h-[26px]">
-          <Image src={"/images/logo_black.svg"} layout="fill" objectFit="contain" />
+          <Image alt="" src={"/images/logo_black.svg"} layout="fill" objectFit="contain" />
         </div>
         <div className="hidden md:flex gap-4 lg:gap-12 font-primary text-base xl:text-lg text-black-100  items-center">
             <a href="#" className="cursor-pointer">Customer</a>
